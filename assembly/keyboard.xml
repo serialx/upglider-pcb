@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/serialx/Downloads/layout (5)/keyboard.sch</source>
-    <date>2021 January 01, Friday 21:20:23</date>
+    <source>/Users/serialx/workspace/upglider-pcb/keyboard.sch</source>
+    <date>2021 February 06, Saturday 23:30:25</date>
     <tool>Eeschema (5.1.8-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1261,33 +1261,33 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>00000680</tstamp>
     </comp>
-    <comp ref="J1">
-      <value>Conn_01x11</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x11" description="Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FFB827D</tstamp>
-    </comp>
     <comp ref="J2">
-      <value>Conn_01x11</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical</footprint>
+      <value>Conn_01x12</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x11" description="Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FFB9CED</tstamp>
+      <tstamp>60201682</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x16</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x16" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60207F78</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector_Generic" part="Conn_01x11">
-      <description>Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector_Generic" part="Conn_01x12">
+      <description>Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x11</field>
+        <field name="Value">Conn_01x12</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -1301,6 +1301,36 @@
         <pin num="9" name="Pin_9" type="passive"/>
         <pin num="10" name="Pin_10" type="passive"/>
         <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x16">
+      <description>Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="D_Small">
@@ -1340,7 +1370,7 @@
       <uri>/Library/Application Support/kicad/library/Device.lib</uri>
     </library>
     <library logical="MX_Alps_Hybrid">
-      <uri>/Users/serialx/Downloads/layout (5)/Schematic_Library/MX_Alps_Hybrid.lib</uri>
+      <uri>/Users/serialx/workspace/upglider-pcb/Schematic_Library/MX_Alps_Hybrid.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -1349,32 +1379,32 @@
       <node ref="D_0" pin="2"/>
     </net>
     <net code="2" name="Net-(D_1-Pad2)">
-      <node ref="D_1" pin="2"/>
       <node ref="K_1" pin="2"/>
+      <node ref="D_1" pin="2"/>
     </net>
     <net code="3" name="Net-(D_2-Pad2)">
       <node ref="D_2" pin="2"/>
       <node ref="K_2" pin="2"/>
     </net>
     <net code="4" name="Net-(D_3-Pad2)">
-      <node ref="K_3" pin="2"/>
       <node ref="D_3" pin="2"/>
+      <node ref="K_3" pin="2"/>
     </net>
     <net code="5" name="Net-(D_4-Pad2)">
       <node ref="K_4" pin="2"/>
       <node ref="D_4" pin="2"/>
     </net>
     <net code="6" name="Net-(D_5-Pad2)">
-      <node ref="D_5" pin="2"/>
       <node ref="K_5" pin="2"/>
+      <node ref="D_5" pin="2"/>
     </net>
     <net code="7" name="Net-(D_6-Pad2)">
-      <node ref="D_6" pin="2"/>
       <node ref="K_6" pin="2"/>
+      <node ref="D_6" pin="2"/>
     </net>
     <net code="8" name="Net-(D_7-Pad2)">
-      <node ref="D_7" pin="2"/>
       <node ref="K_7" pin="2"/>
+      <node ref="D_7" pin="2"/>
     </net>
     <net code="9" name="Net-(D_8-Pad2)">
       <node ref="K_8" pin="2"/>
@@ -1389,8 +1419,8 @@
       <node ref="D_10" pin="2"/>
     </net>
     <net code="12" name="Net-(D_11-Pad2)">
-      <node ref="D_11" pin="2"/>
       <node ref="K_11" pin="2"/>
+      <node ref="D_11" pin="2"/>
     </net>
     <net code="13" name="Net-(D_12-Pad2)">
       <node ref="K_12" pin="2"/>
@@ -1406,26 +1436,26 @@
     </net>
     <net code="16" name="row0">
       <node ref="D_4" pin="1"/>
-      <node ref="D_2" pin="1"/>
-      <node ref="D_7" pin="1"/>
-      <node ref="D_11" pin="1"/>
       <node ref="D_5" pin="1"/>
       <node ref="D_3" pin="1"/>
       <node ref="D_6" pin="1"/>
+      <node ref="D_11" pin="1"/>
       <node ref="D_12" pin="1"/>
-      <node ref="D_10" pin="1"/>
-      <node ref="J2" pin="6"/>
-      <node ref="D_1" pin="1"/>
-      <node ref="D_13" pin="1"/>
       <node ref="D_0" pin="1"/>
+      <node ref="D_13" pin="1"/>
+      <node ref="D_1" pin="1"/>
+      <node ref="D_7" pin="1"/>
+      <node ref="J2" pin="8"/>
+      <node ref="D_10" pin="1"/>
+      <node ref="D_14" pin="1"/>
+      <node ref="D_8" pin="1"/>
+      <node ref="D_2" pin="1"/>
       <node ref="D_15" pin="1"/>
       <node ref="D_9" pin="1"/>
-      <node ref="D_8" pin="1"/>
-      <node ref="D_14" pin="1"/>
     </net>
     <net code="17" name="Net-(D_15-Pad2)">
-      <node ref="K_15" pin="2"/>
       <node ref="D_15" pin="2"/>
+      <node ref="K_15" pin="2"/>
     </net>
     <net code="18" name="Net-(D_16-Pad2)">
       <node ref="K_16" pin="2"/>
@@ -1436,32 +1466,32 @@
       <node ref="D_17" pin="2"/>
     </net>
     <net code="20" name="Net-(D_18-Pad2)">
-      <node ref="D_18" pin="2"/>
       <node ref="K_18" pin="2"/>
+      <node ref="D_18" pin="2"/>
     </net>
     <net code="21" name="Net-(D_19-Pad2)">
-      <node ref="D_19" pin="2"/>
       <node ref="K_19" pin="2"/>
+      <node ref="D_19" pin="2"/>
     </net>
     <net code="22" name="Net-(D_20-Pad2)">
-      <node ref="D_20" pin="2"/>
       <node ref="K_20" pin="2"/>
+      <node ref="D_20" pin="2"/>
     </net>
     <net code="23" name="Net-(D_21-Pad2)">
-      <node ref="D_21" pin="2"/>
       <node ref="K_21" pin="2"/>
+      <node ref="D_21" pin="2"/>
     </net>
     <net code="24" name="Net-(D_22-Pad2)">
       <node ref="K_22" pin="2"/>
       <node ref="D_22" pin="2"/>
     </net>
     <net code="25" name="Net-(D_23-Pad2)">
-      <node ref="K_23" pin="2"/>
       <node ref="D_23" pin="2"/>
+      <node ref="K_23" pin="2"/>
     </net>
     <net code="26" name="Net-(D_24-Pad2)">
-      <node ref="D_24" pin="2"/>
       <node ref="K_24" pin="2"/>
+      <node ref="D_24" pin="2"/>
     </net>
     <net code="27" name="Net-(D_25-Pad2)">
       <node ref="D_25" pin="2"/>
@@ -1484,22 +1514,22 @@
       <node ref="D_29" pin="2"/>
     </net>
     <net code="32" name="row1">
-      <node ref="D_29" pin="1"/>
-      <node ref="D_21" pin="1"/>
-      <node ref="D_25" pin="1"/>
-      <node ref="D_24" pin="1"/>
-      <node ref="D_28" pin="1"/>
       <node ref="D_30" pin="1"/>
-      <node ref="D_22" pin="1"/>
+      <node ref="D_21" pin="1"/>
+      <node ref="D_29" pin="1"/>
+      <node ref="D_24" pin="1"/>
       <node ref="D_27" pin="1"/>
-      <node ref="D_16" pin="1"/>
+      <node ref="D_22" pin="1"/>
+      <node ref="D_25" pin="1"/>
+      <node ref="D_28" pin="1"/>
       <node ref="D_20" pin="1"/>
+      <node ref="D_16" pin="1"/>
       <node ref="J2" pin="7"/>
       <node ref="D_17" pin="1"/>
-      <node ref="D_23" pin="1"/>
-      <node ref="D_19" pin="1"/>
-      <node ref="D_26" pin="1"/>
       <node ref="D_18" pin="1"/>
+      <node ref="D_19" pin="1"/>
+      <node ref="D_23" pin="1"/>
+      <node ref="D_26" pin="1"/>
     </net>
     <net code="33" name="Net-(D_30-Pad2)">
       <node ref="D_30" pin="2"/>
@@ -1510,32 +1540,32 @@
       <node ref="K_31" pin="2"/>
     </net>
     <net code="35" name="Net-(D_32-Pad2)">
-      <node ref="K_32" pin="2"/>
       <node ref="D_32" pin="2"/>
+      <node ref="K_32" pin="2"/>
     </net>
     <net code="36" name="Net-(D_33-Pad2)">
-      <node ref="D_33" pin="2"/>
       <node ref="K_33" pin="2"/>
+      <node ref="D_33" pin="2"/>
     </net>
     <net code="37" name="Net-(D_34-Pad2)">
-      <node ref="D_34" pin="2"/>
       <node ref="K_34" pin="2"/>
+      <node ref="D_34" pin="2"/>
     </net>
     <net code="38" name="Net-(D_35-Pad2)">
       <node ref="D_35" pin="2"/>
       <node ref="K_35" pin="2"/>
     </net>
     <net code="39" name="Net-(D_36-Pad2)">
-      <node ref="D_36" pin="2"/>
       <node ref="K_36" pin="2"/>
+      <node ref="D_36" pin="2"/>
     </net>
     <net code="40" name="Net-(D_37-Pad2)">
-      <node ref="D_37" pin="2"/>
       <node ref="K_37" pin="2"/>
+      <node ref="D_37" pin="2"/>
     </net>
     <net code="41" name="Net-(D_38-Pad2)">
-      <node ref="D_38" pin="2"/>
       <node ref="K_38" pin="2"/>
+      <node ref="D_38" pin="2"/>
     </net>
     <net code="42" name="Net-(D_39-Pad2)">
       <node ref="D_39" pin="2"/>
@@ -1546,8 +1576,8 @@
       <node ref="K_40" pin="2"/>
     </net>
     <net code="44" name="Net-(D_41-Pad2)">
-      <node ref="D_41" pin="2"/>
       <node ref="K_41" pin="2"/>
+      <node ref="D_41" pin="2"/>
     </net>
     <net code="45" name="Net-(D_42-Pad2)">
       <node ref="K_42" pin="2"/>
@@ -1558,111 +1588,111 @@
       <node ref="D_43" pin="2"/>
     </net>
     <net code="47" name="row2">
-      <node ref="D_36" pin="1"/>
-      <node ref="D_32" pin="1"/>
-      <node ref="D_37" pin="1"/>
       <node ref="D_35" pin="1"/>
+      <node ref="D_37" pin="1"/>
+      <node ref="D_34" pin="1"/>
       <node ref="D_38" pin="1"/>
-      <node ref="D_42" pin="1"/>
+      <node ref="D_39" pin="1"/>
       <node ref="D_40" pin="1"/>
+      <node ref="D_33" pin="1"/>
       <node ref="D_41" pin="1"/>
       <node ref="D_44" pin="1"/>
-      <node ref="D_33" pin="1"/>
-      <node ref="D_39" pin="1"/>
+      <node ref="J2" pin="6"/>
+      <node ref="D_32" pin="1"/>
       <node ref="D_31" pin="1"/>
       <node ref="D_43" pin="1"/>
-      <node ref="J2" pin="8"/>
-      <node ref="D_34" pin="1"/>
+      <node ref="D_36" pin="1"/>
+      <node ref="D_42" pin="1"/>
     </net>
     <net code="48" name="Net-(D_44-Pad2)">
-      <node ref="K_44" pin="2"/>
       <node ref="D_44" pin="2"/>
+      <node ref="K_44" pin="2"/>
     </net>
     <net code="49" name="Net-(D_45-Pad2)">
-      <node ref="K_45" pin="2"/>
       <node ref="D_45" pin="2"/>
+      <node ref="K_45" pin="2"/>
     </net>
     <net code="50" name="col2">
+      <node ref="J1" pin="14"/>
+      <node ref="K_46" pin="1"/>
       <node ref="K_2" pin="1"/>
       <node ref="K_17" pin="1"/>
       <node ref="K_32" pin="1"/>
-      <node ref="J1" pin="3"/>
-      <node ref="K_46" pin="1"/>
     </net>
     <net code="51" name="Net-(D_46-Pad2)">
       <node ref="K_46" pin="2"/>
       <node ref="D_46" pin="2"/>
     </net>
     <net code="52" name="Net-(D_47-Pad2)">
-      <node ref="K_47" pin="2"/>
       <node ref="D_47" pin="2"/>
+      <node ref="K_47" pin="2"/>
     </net>
     <net code="53" name="col4">
-      <node ref="K_48" pin="1"/>
       <node ref="K_4" pin="1"/>
-      <node ref="K_34" pin="1"/>
-      <node ref="J1" pin="5"/>
       <node ref="K_19" pin="1"/>
+      <node ref="K_34" pin="1"/>
+      <node ref="K_48" pin="1"/>
+      <node ref="J1" pin="16"/>
     </net>
     <net code="54" name="Net-(D_48-Pad2)">
-      <node ref="K_48" pin="2"/>
       <node ref="D_48" pin="2"/>
+      <node ref="K_48" pin="2"/>
     </net>
     <net code="55" name="col5">
-      <node ref="K_49" pin="1"/>
       <node ref="K_20" pin="1"/>
-      <node ref="J1" pin="6"/>
+      <node ref="K_49" pin="1"/>
       <node ref="K_5" pin="1"/>
       <node ref="K_35" pin="1"/>
+      <node ref="J2" pin="9"/>
     </net>
     <net code="56" name="Net-(D_49-Pad2)">
-      <node ref="K_49" pin="2"/>
       <node ref="D_49" pin="2"/>
+      <node ref="K_49" pin="2"/>
     </net>
     <net code="57" name="Net-(D_50-Pad2)">
-      <node ref="K_50" pin="2"/>
       <node ref="D_50" pin="2"/>
+      <node ref="K_50" pin="2"/>
     </net>
     <net code="58" name="col7">
+      <node ref="K_51" pin="1"/>
+      <node ref="J2" pin="11"/>
+      <node ref="K_37" pin="1"/>
       <node ref="K_7" pin="1"/>
       <node ref="K_22" pin="1"/>
-      <node ref="J1" pin="8"/>
-      <node ref="K_37" pin="1"/>
-      <node ref="K_51" pin="1"/>
     </net>
     <net code="59" name="Net-(D_51-Pad2)">
-      <node ref="K_51" pin="2"/>
       <node ref="D_51" pin="2"/>
+      <node ref="K_51" pin="2"/>
     </net>
     <net code="60" name="col8">
-      <node ref="K_8" pin="1"/>
       <node ref="K_23" pin="1"/>
-      <node ref="J1" pin="9"/>
-      <node ref="K_52" pin="1"/>
       <node ref="K_38" pin="1"/>
+      <node ref="K_8" pin="1"/>
+      <node ref="K_52" pin="1"/>
+      <node ref="J2" pin="12"/>
     </net>
     <net code="61" name="Net-(D_52-Pad2)">
       <node ref="D_52" pin="2"/>
       <node ref="K_52" pin="2"/>
     </net>
     <net code="62" name="col9">
-      <node ref="K_53" pin="1"/>
       <node ref="K_39" pin="1"/>
       <node ref="K_24" pin="1"/>
-      <node ref="J1" pin="10"/>
+      <node ref="K_53" pin="1"/>
       <node ref="K_9" pin="1"/>
+      <node ref="J1" pin="7"/>
     </net>
     <net code="63" name="Net-(D_53-Pad2)">
-      <node ref="D_53" pin="2"/>
       <node ref="K_53" pin="2"/>
+      <node ref="D_53" pin="2"/>
     </net>
     <net code="64" name="Net-(D_54-Pad2)">
-      <node ref="D_54" pin="2"/>
       <node ref="K_54" pin="2"/>
+      <node ref="D_54" pin="2"/>
     </net>
     <net code="65" name="Net-(D_55-Pad2)">
-      <node ref="D_55" pin="2"/>
       <node ref="K_55" pin="2"/>
+      <node ref="D_55" pin="2"/>
     </net>
     <net code="66" name="Net-(D_56-Pad2)">
       <node ref="K_56" pin="2"/>
@@ -1674,31 +1704,31 @@
     </net>
     <net code="68" name="row3">
       <node ref="D_48" pin="1"/>
+      <node ref="J2" pin="5"/>
       <node ref="D_49" pin="1"/>
       <node ref="D_47" pin="1"/>
       <node ref="D_46" pin="1"/>
       <node ref="D_50" pin="1"/>
+      <node ref="D_55" pin="1"/>
       <node ref="D_45" pin="1"/>
       <node ref="D_51" pin="1"/>
-      <node ref="D_52" pin="1"/>
-      <node ref="J2" pin="9"/>
       <node ref="D_58" pin="1"/>
-      <node ref="D_53" pin="1"/>
+      <node ref="D_52" pin="1"/>
       <node ref="D_57" pin="1"/>
+      <node ref="D_53" pin="1"/>
       <node ref="D_56" pin="1"/>
       <node ref="D_54" pin="1"/>
-      <node ref="D_55" pin="1"/>
     </net>
     <net code="69" name="Net-(D_58-Pad2)">
-      <node ref="D_58" pin="2"/>
       <node ref="K_58" pin="2"/>
+      <node ref="D_58" pin="2"/>
     </net>
     <net code="70" name="col0">
-      <node ref="J1" pin="1"/>
-      <node ref="K_0" pin="1"/>
       <node ref="K_16" pin="1"/>
-      <node ref="K_59" pin="1"/>
+      <node ref="K_0" pin="1"/>
+      <node ref="J1" pin="12"/>
       <node ref="K_31" pin="1"/>
+      <node ref="K_59" pin="1"/>
     </net>
     <net code="71" name="Net-(D_59-Pad2)">
       <node ref="D_59" pin="2"/>
@@ -1706,8 +1736,8 @@
     </net>
     <net code="72" name="col1">
       <node ref="K_1" pin="1"/>
-      <node ref="J1" pin="2"/>
       <node ref="K_45" pin="1"/>
+      <node ref="J1" pin="13"/>
       <node ref="K_60" pin="1"/>
     </net>
     <net code="73" name="Net-(D_60-Pad2)">
@@ -1715,80 +1745,80 @@
       <node ref="K_60" pin="2"/>
     </net>
     <net code="74" name="col3">
-      <node ref="J1" pin="4"/>
-      <node ref="K_61" pin="1"/>
-      <node ref="K_33" pin="1"/>
       <node ref="K_3" pin="1"/>
-      <node ref="K_18" pin="1"/>
+      <node ref="K_33" pin="1"/>
+      <node ref="J1" pin="15"/>
+      <node ref="K_61" pin="1"/>
       <node ref="K_47" pin="1"/>
+      <node ref="K_18" pin="1"/>
     </net>
     <net code="75" name="Net-(D_61-Pad2)">
-      <node ref="D_61" pin="2"/>
       <node ref="K_61" pin="2"/>
+      <node ref="D_61" pin="2"/>
     </net>
     <net code="76" name="col6">
-      <node ref="K_50" pin="1"/>
-      <node ref="K_62" pin="1"/>
-      <node ref="J1" pin="7"/>
-      <node ref="K_21" pin="1"/>
       <node ref="K_6" pin="1"/>
       <node ref="K_36" pin="1"/>
+      <node ref="K_50" pin="1"/>
+      <node ref="K_62" pin="1"/>
+      <node ref="K_21" pin="1"/>
+      <node ref="J2" pin="10"/>
     </net>
     <net code="77" name="Net-(D_62-Pad2)">
       <node ref="D_62" pin="2"/>
       <node ref="K_62" pin="2"/>
     </net>
     <net code="78" name="col10">
-      <node ref="K_25" pin="1"/>
-      <node ref="K_63" pin="1"/>
-      <node ref="K_40" pin="1"/>
+      <node ref="J1" pin="6"/>
       <node ref="K_54" pin="1"/>
+      <node ref="K_40" pin="1"/>
+      <node ref="K_25" pin="1"/>
       <node ref="K_10" pin="1"/>
-      <node ref="J1" pin="11"/>
+      <node ref="K_63" pin="1"/>
     </net>
     <net code="79" name="Net-(D_63-Pad2)">
       <node ref="K_63" pin="2"/>
       <node ref="D_63" pin="2"/>
     </net>
     <net code="80" name="col11">
-      <node ref="K_26" pin="1"/>
-      <node ref="J2" pin="1"/>
       <node ref="K_11" pin="1"/>
-      <node ref="K_55" pin="1"/>
       <node ref="K_64" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="K_26" pin="1"/>
       <node ref="K_41" pin="1"/>
+      <node ref="K_55" pin="1"/>
     </net>
     <net code="81" name="Net-(D_64-Pad2)">
-      <node ref="D_64" pin="2"/>
       <node ref="K_64" pin="2"/>
+      <node ref="D_64" pin="2"/>
     </net>
     <net code="82" name="col12">
-      <node ref="K_42" pin="1"/>
-      <node ref="K_12" pin="1"/>
+      <node ref="J1" pin="11"/>
       <node ref="K_27" pin="1"/>
+      <node ref="K_12" pin="1"/>
+      <node ref="K_42" pin="1"/>
       <node ref="K_65" pin="1"/>
-      <node ref="J2" pin="2"/>
     </net>
     <net code="83" name="Net-(D_65-Pad2)">
-      <node ref="K_65" pin="2"/>
       <node ref="D_65" pin="2"/>
+      <node ref="K_65" pin="2"/>
     </net>
     <net code="84" name="col13">
-      <node ref="K_56" pin="1"/>
-      <node ref="J2" pin="3"/>
-      <node ref="K_66" pin="1"/>
-      <node ref="K_28" pin="1"/>
       <node ref="K_43" pin="1"/>
+      <node ref="K_56" pin="1"/>
+      <node ref="J1" pin="10"/>
+      <node ref="K_66" pin="1"/>
       <node ref="K_13" pin="1"/>
+      <node ref="K_28" pin="1"/>
     </net>
     <net code="85" name="Net-(D_66-Pad2)">
       <node ref="K_66" pin="2"/>
       <node ref="D_66" pin="2"/>
     </net>
     <net code="86" name="col14">
-      <node ref="K_57" pin="1"/>
-      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="9"/>
       <node ref="K_14" pin="1"/>
+      <node ref="K_57" pin="1"/>
       <node ref="K_29" pin="1"/>
       <node ref="K_67" pin="1"/>
     </net>
@@ -1797,32 +1827,50 @@
       <node ref="D_67" pin="2"/>
     </net>
     <net code="88" name="col15">
-      <node ref="J2" pin="5"/>
       <node ref="K_15" pin="1"/>
-      <node ref="K_44" pin="1"/>
+      <node ref="K_68" pin="1"/>
+      <node ref="J1" pin="8"/>
       <node ref="K_30" pin="1"/>
       <node ref="K_58" pin="1"/>
-      <node ref="K_68" pin="1"/>
+      <node ref="K_44" pin="1"/>
     </net>
     <net code="89" name="row4">
-      <node ref="D_67" pin="1"/>
-      <node ref="D_68" pin="1"/>
-      <node ref="D_66" pin="1"/>
       <node ref="D_65" pin="1"/>
       <node ref="D_64" pin="1"/>
       <node ref="D_63" pin="1"/>
       <node ref="D_62" pin="1"/>
       <node ref="D_61" pin="1"/>
-      <node ref="J2" pin="10"/>
       <node ref="D_60" pin="1"/>
       <node ref="D_59" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="D_66" pin="1"/>
+      <node ref="D_68" pin="1"/>
+      <node ref="D_67" pin="1"/>
     </net>
     <net code="90" name="Net-(D_68-Pad2)">
-      <node ref="D_68" pin="2"/>
       <node ref="K_68" pin="2"/>
+      <node ref="D_68" pin="2"/>
     </net>
-    <net code="91" name="Net-(J2-Pad11)">
-      <node ref="J2" pin="11"/>
+    <net code="91" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="92" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="93" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="94" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="95" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="96" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="97" name="GND">
+      <node ref="J1" pin="4"/>
     </net>
   </nets>
 </export>

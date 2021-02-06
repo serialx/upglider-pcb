@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Val,Package,Mid X,Mid Y,Rotation,Side
 "D_0","D","D_SOD-123",18.050000,-10.025000,90.000000,bottom
 "D_1","D","D_SOD-123",37.100000,-10.025000,90.000000,bottom
 "D_2","D","D_SOD-123",56.150000,-10.025000,90.000000,bottom

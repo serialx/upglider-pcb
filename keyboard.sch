@@ -2311,69 +2311,85 @@ Wire Wire Line
 	15800 950  15800 1950
 Wire Wire Line
 	16800 950  16800 1950
-Text GLabel 3500 6400 0    50   Input ~ 0
-col0
-Text GLabel 3500 6500 0    50   Input ~ 0
-col1
-Text GLabel 3500 6600 0    50   Input ~ 0
-col2
-Text GLabel 3500 6700 0    50   Input ~ 0
-col3
-Text GLabel 3500 6800 0    50   Input ~ 0
-col4
-Text GLabel 3500 6900 0    50   Input ~ 0
-col5
-Text GLabel 3500 7000 0    50   Input ~ 0
-col6
-Text GLabel 3500 7100 0    50   Input ~ 0
-col7
-Text GLabel 3500 7200 0    50   Input ~ 0
-col8
-Text GLabel 3500 7300 0    50   Input ~ 0
-col9
-Text GLabel 4000 7300 2    50   Input ~ 0
-col12
-Text GLabel 4000 7200 2    50   Input ~ 0
-col13
-Text GLabel 4000 7100 2    50   Input ~ 0
-col14
-Text GLabel 4000 7000 2    50   Input ~ 0
-col15
-Text GLabel 3500 7400 0    50   Input ~ 0
-col10
-Text GLabel 4000 7400 2    50   Input ~ 0
-col11
-Text GLabel 4000 6900 2    50   Input ~ 0
-row0
-Text GLabel 4000 6800 2    50   Input ~ 0
-row1
-Text GLabel 4000 6700 2    50   Input ~ 0
-row2
-Text GLabel 4000 6600 2    50   Input ~ 0
-row3
-Text GLabel 4000 6500 2    50   Input ~ 0
-row4
-NoConn ~ 4000 6400
 $Comp
-L Connector_Generic:Conn_01x11 J1
-U 1 1 5FFB827D
-P 3700 6900
-F 0 "J1" H 3780 6942 50  0000 L CNN
-F 1 "Conn_01x11" H 3780 6851 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 3700 6900 50  0001 C CNN
-F 3 "~" H 3700 6900 50  0001 C CNN
-	1    3700 6900
+L Connector_Generic:Conn_01x12 J2
+U 1 1 60201682
+P 5750 7250
+F 0 "J2" H 5668 7967 50  0000 C CNN
+F 1 "Conn_01x12" H 5668 7876 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 5750 7250 50  0001 C CNN
+F 3 "~" H 5750 7250 50  0001 C CNN
+	1    5750 7250
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4800 7450 0    50   Input ~ 0
+col0
+Text GLabel 4800 7550 0    50   Input ~ 0
+col1
+Text GLabel 4800 7650 0    50   Input ~ 0
+col2
+Text GLabel 4800 7750 0    50   Input ~ 0
+col3
+Text GLabel 4800 7850 0    50   Input ~ 0
+col4
+Text GLabel 5950 7550 2    50   Input ~ 0
+col5
+Text GLabel 5950 7650 2    50   Input ~ 0
+col6
+Text GLabel 5950 7750 2    50   Input ~ 0
+col7
+Text GLabel 5950 7850 2    50   Input ~ 0
+col8
+Text GLabel 4800 6950 0    50   Input ~ 0
+col9
+Text GLabel 4800 6850 0    50   Input ~ 0
+col10
+Text GLabel 4800 6750 0    50   Input ~ 0
+col11
+Text GLabel 4800 7350 0    50   Input ~ 0
+col12
+Text GLabel 4800 7250 0    50   Input ~ 0
+col13
+Text GLabel 4800 7150 0    50   Input ~ 0
+col14
+Text GLabel 4800 7050 0    50   Input ~ 0
+col15
+Text GLabel 5950 7450 2    50   Input ~ 0
+row0
+Text GLabel 5950 7350 2    50   Input ~ 0
+row1
+Text GLabel 5950 7250 2    50   Input ~ 0
+row2
+Text GLabel 5950 7150 2    50   Input ~ 0
+row3
+Text GLabel 5950 7050 2    50   Input ~ 0
+row4
+NoConn ~ 5950 6950
+NoConn ~ 5950 6850
+NoConn ~ 5950 6750
+NoConn ~ 4800 6550
+NoConn ~ 4800 6450
+NoConn ~ 4800 6350
+$Comp
+L Connector_Generic:Conn_01x16 J1
+U 1 1 60207F78
+P 5000 7050
+F 0 "J1" H 5080 7042 50  0000 L CNN
+F 1 "Conn_01x16" H 5080 6951 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 5000 7050 50  0001 C CNN
+F 3 "~" H 5000 7050 50  0001 C CNN
+	1    5000 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x11 J2
-U 1 1 5FFB9CED
-P 3800 6900
-F 0 "J2" H 3880 6942 50  0000 L CNN
-F 1 "Conn_01x11" H 3880 6851 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 3800 6900 50  0001 C CNN
-F 3 "~" H 3800 6900 50  0001 C CNN
-	1    3800 6900
-	-1   0    0    1   
+L power:GND #PWR?
+U 1 1 602E6ACE
+P 4800 6650
+F 0 "#PWR?" H 4800 6400 50  0001 C CNN
+F 1 "GND" V 4805 6522 50  0000 R CNN
+F 2 "" H 4800 6650 50  0001 C CNN
+F 3 "" H 4800 6650 50  0001 C CNN
+	1    4800 6650
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
