@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="57.452377"
+       y="145.14285"
+       id="text12"><tspan
+         x="57.452377"
+         y="145.14285"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'.SF NS Text Condensed';-inkscape-font-specification:'.SF NS Text Condensed,  Bold';stroke-width:0.264583"
+         id="tspan14">Upglider <tspan
+   style="font-size:5.64444px"
+   id="tspan80">Mk I</tspan></tspan></text>
+    <rect
+       id="rect18"
+       width="3.5"
+       height="3.5"
+       x="43.147976"
+       y="136.33304"
+       style="stroke-width:0.23151" />
+    <rect
+       id="rect18-4"
+       width="3.5"
+       height="3.5"
+       x="47.147976"
+       y="140.33304"
+       style="stroke-width:0.23151" />
+    <rect
+       id="rect18-4-1"
+       width="3.5"
+       height="3.5"
+       x="51.147976"
+       y="136.33304"
+       style="stroke-width:0.23151" />
+    <rect
+       id="rect18-4-1-7"
+       width="3.5"
+       height="3.5"
+       x="51.147976"
+       y="140.33304"
+       style="stroke-width:0.23151" />
+    <rect
+       id="rect18-4-1-7-1"
+       width="3.5"
+       height="3.5"
+       x="47.147976"
+       y="144.33304"
+       style="stroke-width:0.23151" />
+  </g>
+</svg>
